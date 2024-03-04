@@ -1,0 +1,28 @@
+@media (max-width: 1036px) {
+  .guia-img {
+    display: none;
+  }
+
+  .conteudo-txt-pagina1 {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+}
+
+@media (max-width: 588px) {
+  .conteudo-txt-pagina1 h1 {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .conteudo-txt-pagina1 h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .conteudo-txt-pagina1 h1 {
+    font-size: 4rem;
+  }
+}

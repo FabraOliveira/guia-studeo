@@ -1,0 +1,41 @@
+.pag6-grade {
+  display: grid;
+  grid-template-columns: repeat(2, 0.6fr);
+  gap: 8rem;
+}
+
+.pag6-grade h3 {
+  font-size: 3rem;
+  position: relative;
+  padding-bottom: 2rem;
+  text-transform: uppercase;
+  /*Transformar um texto em maiúsculas*/
+}
+
+.pag6-grade p,
+.contato-pag6 p {
+  text-align: justify;
+  word-spacing: inherit;
+  color: #595975;
+}
+
+.contato-pag6 h3 {
+  font-size: 3rem;
+}
+
+#guia {
+  min-width: 100vh;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  /* Remove a decoração de link */
+  color: #2895d8;
+  /* Define a cor do texto para azul */
+}
+
+.link-video:hover {
+  text-decoration: underline;
+  /* Adiciona sublinhado ao passar o mouse sobre o link */
+}

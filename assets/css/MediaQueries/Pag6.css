@@ -1,0 +1,39 @@
+@media (max-width: 1024px) {
+  .pag6-grade {
+    display: block;
+    width: auto;
+    right: auto;
+    justify-content: center; /*Centralizando horizontalmente */
+  }
+
+  .conteudo-pagina6 .cabecalho {
+    font-size: 5rem;
+    margin-bottom: 2rem;
+  }
+
+  .conteudo-pagina6 .descricao {
+    margin-top: 1rem;
+  }
+
+  .pag6-grade p {
+    margin-bottom: 3rem;
+  }
+
+  .pag6-grade iframe {
+    width: 100%;
+    height: 40rem;
+    margin-bottom: 5rem;
+  }
+}
+
+@media (max-width: 500px) and (min-width: 361px) {
+  .conteudo-pagina6 .cabecalho {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .conteudo-pagina6 .cabecalho {
+    font-size: 3rem;
+  }
+}

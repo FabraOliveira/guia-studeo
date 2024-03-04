@@ -1,0 +1,80 @@
+.conteudo-pagina3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.conteudo-txt-pagina3 .cabecalho{
+    margin-top: 8rem;
+    margin-bottom: 0.1rem;
+}
+
+/* Estilos para ambas as grades */
+
+.grade {
+  display: grid;
+  grid-template-columns: repeat(2, 0.6fr);
+  gap: 8rem;
+  counter-reset: contador;
+}
+
+.grade h3 {
+  font-size: 3rem;
+  position: relative;
+  padding-left: 9rem;
+  padding-bottom: 2rem;
+  text-transform: uppercase; /*Transformar um texto em maiúsculas*/
+}
+
+.grade h3::before {
+  counter-increment: contador;
+  content: counter(contador); /*insere o valor atual*/
+  position: absolute;
+  font-size: 8rem;
+  font-style: italic;
+  top: -4rem;
+  left: 1rem;
+  transform: rotate(5deg);
+}
+
+.grade p {
+  margin-bottom: 10rem;
+}
+
+/* Estilos específicos para a primeira grade */
+.grade1 {
+  counter-reset: contador;
+}
+
+/* Estilos específicos para a segunda grade */
+.grade2 {
+  counter-reset: contador +2; /* Começa a contagem a partir de 3 */
+}
+
+/* Estilos para telas pequenas */
+
+@media (max-width: 1036px) {
+  .conteudo-pagina3 {
+    display: flex;
+    justify-content: center; /*Centralizando horizontalmente */
+  }
+
+  .conteudo-txt-pagina3 .cabecalho{
+    font-size: 6rem;
+}
+
+  .grade {
+    display: block;
+    gap: 8rem;
+    width: auto;
+    right: auto;
+  }
+
+  .grade1{
+    margin-bottom: 0.1rem;
+  }
+
+  .grade2{
+    margin-top: 0.1rem;
+  } 
+}

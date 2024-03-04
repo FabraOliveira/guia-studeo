@@ -1,0 +1,53 @@
+.studeo {
+  display: grid;
+  grid-template-columns: repeat(2, 0.6fr);
+  gap: 2rem;
+}
+
+.studeo-txt {
+  color: #595975;
+  text-align: justify;
+  word-spacing: inherit;
+  margin-bottom: 4rem;
+  margin-top: -3rem;
+}
+
+.titulo-video {
+  font-size: 3rem;
+  margin-bottom: -6rem;
+  text-transform: uppercase;
+}
+
+.pag4-grade {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8rem;
+  margin-bottom: 8rem;
+}
+
+.videos-web,
+.videos-app {
+  height: 40rem; /* Defina uma altura fixa para a div */
+  overflow-y: scroll; /* Barra de rolagem */
+}
+
+.legenda-video {
+  margin-top: 6rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  color: #638ab1;
+  font-family: "Montserrat", sans-serif;
+}
+
+.legenda-video1 {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  color: #638ab1;
+  font-family: "Montserrat", sans-serif;
+}
+
+.titulo-video-celular,
+.titulo-video-celular2 {
+  display: none;
+}

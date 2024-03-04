@@ -1,0 +1,77 @@
+@media (max-width: 1024px) and (min-width: 990px) {
+  .tabelas-modulos {
+    margin-left: auto;
+  }
+
+  .titulo-pag2,
+  .txt2-pag2 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .txt2-pag2 {
+    text-align: justify;
+  }
+}
+
+@media (max-width: 989px) and (min-width: 449px) {
+  .tabelas-modulos {
+    padding-top: 5rem;
+    width: 48rem; /*largura*/
+    height: 30rem;
+    margin-top: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .Conteudo-pag2 h1 {
+    font-size: 5rem;
+  }
+
+  .tabela-img {
+    width: 896px;
+    height: 560px;
+  }
+}
+
+@media (max-width: 548px) and (min-width: 459px) {
+  .tabelas-modulos {
+    padding-top: 5rem;
+    width: 37rem; /*largura*/
+    height: 30rem;
+    margin-top: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .Conteudo-pag2 h1 {
+    font-size: 5rem;
+  }
+
+  .tabela-img {
+    width: 896px;
+    height: 560px;
+  }
+}
+
+@media (max-width: 458px) {
+  .tabelas-modulos {
+    display: none; /* Oculta a tabela quando a tela for estreita o suficiente */
+  }
+
+  .vazio {
+    display: block;
+    margin: 18rem;
+  }
+
+  .txt2-pag2 {
+    color: #595975;
+    margin-bottom: 2rem;
+  }
+
+  .metodologia {
+    display: block;
+    color: #595975;
+    margin-bottom: 6rem;
+  }
+}

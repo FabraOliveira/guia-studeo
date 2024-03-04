@@ -1,0 +1,15 @@
+.fim-da-pagina {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4vh;
+}
+
+.conteudo {
+  margin: 0;
+}
+
+.link-rodape {
+  text-decoration: none;
+  color: #ffffff;
+}

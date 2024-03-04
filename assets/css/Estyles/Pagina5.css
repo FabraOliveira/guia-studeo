@@ -1,0 +1,90 @@
+.conteudo-pagina5 {
+  display: grid;
+  grid-template-columns: repeat(2, 0.5fr);
+  align-items: center;
+  margin-top: 5rem;
+  gap: 10rem;
+}
+
+.formulario {
+  width: 40rem;
+  /* Largura */
+  padding: 3rem;
+  /* margin: 6rem auto; */
+  margin-top: 10rem;
+  margin-bottom: 15rem;
+
+  /* Centraliza vertical e horizontalmente */
+  border: 0.1rem solid cornflowerblue;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  /* grid: 1 1 320px; */
+}
+
+.SemBorda {
+  border: none;
+}
+
+.formulario legend {
+  font-weight: bold;
+}
+
+.dados-contato {
+  margin-bottom: 1.5rem;
+}
+
+.dados-contato label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.dados-contato input[type="text"],
+.dados-contato input[type="tel"],
+.dados-contato input[type="email"],
+.dados-contato select {
+  width: 100%;
+  /*largura de 100%*/
+  padding: 0.8rem;
+  border: 0.1rem solid #ccc;
+  border-radius: 0.4rem;
+  /*borda arredondada com 4 pixels*/
+  box-sizing: border-box;
+}
+
+/*define a cor da borda quando o usuário clica*/
+.dados-contato input[type="text"]:focus,
+.dados-contato input[type="tel"]:focus,
+.dados-contato input[type="email"]:focus,
+.dados-contato select:focus {
+  outline: none; /* removendo a borda*/
+  /* border-color:  cornflowerblue; */
+  box-shadow: 0 0 0.2rem 0.3rem cornflowerblue;
+}
+
+.dados-contato small {
+  font-size: 1.5rem;
+}
+
+.dados-contato button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 0.4rem;
+  /*borda arredondada com 4 pixels*/
+  background-color: cornflowerblue;
+  color: white;
+  cursor: pointer;
+  /*Cursor muda para formato de uma mão*/
+  transition: background-color 0.3s;
+}
+
+.dados-contato button:hover {
+  background-color: #4b92db;
+}
+
+.formulario legend {
+  margin-bottom: 1rem;
+}
+
+.pagina5-txt {
+  margin-bottom: 40rem;
+}

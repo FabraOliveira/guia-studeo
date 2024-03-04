@@ -1,0 +1,16 @@
+@media (max-width: 360px) {
+    .conteudo-txt-pagina3 .cabecalho{
+        font-size: 4rem;
+    }
+
+    .grade h3 {
+        font-size: 2rem;
+        padding-left: 6rem;
+    }
+
+    .grade h3::before {
+        font-size: 6rem;
+        top: -3rem;
+        left: 1rem;
+    }
+  }

@@ -1,0 +1,92 @@
+:root {
+  --azul-cor: #1c71a5;
+  --branco-cor: #ffffff;
+  --espacamento: 3rem;
+  --azul-escuro-cor: #0d4164;
+  --cinza-claro-cor: #d0d6e4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  /* Padrão 16 pixels, tamanho desejado 10 pixels. Para calcular a porcentagem, dividimos o tamanho desejado em pixels pelo tamanho padrão em pixels e multiplicamos por 100. */
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2rem;
+  /* 2rem × 10px = 20px */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.secao {
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.pag-azul {
+  background-image: url("../../img/FundoPage1.svg");
+  background-size: cover;
+  background-position: center center;
+  color: var(--branco-cor);
+}
+
+.pag-branca {
+  background-image: url("../../img/FundoPage2.svg");
+  background-size: cover;
+  background-position: center center;
+  color: var(--azul-cor);
+}
+
+.conteudo-principal {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: var(--espacamento);
+}
+
+.cabecalho {
+  font-size: 8rem;
+  display: grid;
+  align-items: center;
+  gap: var(--espacamento);
+  margin-top: 10rem;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+}
+
+.descricao {
+  padding-bottom: 5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.espaco-abaixo-menu {
+  height: 6.5rem;
+}
+
+.link-video a {
+  text-decoration: none;
+  /* Remove a decoração de link */
+  color: #2895d8;
+  /* Define a cor do texto para azul */
+}
+
+.link-video:hover {
+  text-decoration: underline;
+  /* Adiciona sublinhado ao passar o mouse sobre o link */
+}

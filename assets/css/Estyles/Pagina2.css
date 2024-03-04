@@ -1,0 +1,44 @@
+Conteudo-pag2 {
+  max-width: 100vh;
+}
+
+.tabelas-modulos {
+  width: 90rem; /*largura*/
+  height: auto;
+  white-space: nowrap; /* Evite que as imagens quebrem para a próxima linha */
+  overflow-x: auto;
+  overflow-y: hidden; /* Esconda a barra de rolagem vertical */
+  margin-bottom: 25rem;
+  margin-top: 15rem;
+  margin-left: 15rem;
+}
+
+.tabelas-modulos img {
+  margin: -20rem;
+}
+
+.txt1-pag2 {
+  margin-bottom: -7rem;
+  text-align: justify;
+  color: #595975;
+}
+
+.txt2-pag2 {
+  margin-top: -15rem;
+  text-align: justify;
+}
+
+.titulo-pag2 {
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+}
+
+
+.vazio{
+  display: none;
+}
+
+.metodologia{
+  display: none;
+}
+

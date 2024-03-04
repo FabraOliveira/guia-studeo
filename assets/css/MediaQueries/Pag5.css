@@ -1,0 +1,59 @@
+@media (max-width: 1244px) {
+  .conteudo-pagina5 {
+    display: grid;
+    grid-template-columns: repeat(2, 0.3fr);
+    align-items: center;
+    margin-top: 5rem;
+    gap: 15rem;
+  }
+
+  .pagina5-txt .cabecalho {
+    font-size: 5rem;
+  }
+}
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .conteudo-pagina5 {
+    display: block;
+    width: auto;
+    right: auto;
+    justify-content: center; /*Centralizando horizontalmente */
+  }
+
+  .pagina5-txt .cabecalho {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+  }
+
+  .pagina5-txt,
+  .cabecalho {
+    margin-bottom: 8rem;
+  }
+
+  .formulario {
+    width: auto;
+    /* Largura */
+    padding: 3rem;
+    /* margin: 6rem auto; */
+    margin-top: 1rem;
+    margin-bottom: 15rem;
+
+    /* Centraliza vertical e horizontalmente */
+    border: 0.1rem solid cornflowerblue;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    /* grid: 1 1 320px; */
+  }
+}
+
+@media (max-width: 500px) and (min-width: 361px) {
+  .pagina5-txt .cabecalho {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .pagina5-txt .cabecalho {
+    font-size: 3rem;
+  }
+}
